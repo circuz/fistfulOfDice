@@ -172,4 +172,8 @@ D24 = 4 * 6 = 2 * 2 * 2 * 3 = 2^3 * 3^1
 
 **Repeat these steps again and combine to simulate a D100**
 
+-- Do dice sets include a D12?
 
+**Lastly: to simulate a D20 one takes three D6es, severs one into a D5 and reduces the other two to D2s. When combining the three of them a perfect D20 is simulated!** *visibly excited*
+
+**...** *reaction shot of extras who are **not** impressed*
