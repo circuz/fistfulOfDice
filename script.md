@@ -159,3 +159,17 @@ D24 = 4 * 6 = 2 * 2 * 2 * 3 = 2^3 * 3^1
 **Another way to simulate a D1000 using only D6es is to first simulate a D5 by SEVERING a D6, then simulate a D34 using two D6es by COMBINING them and SEVERING the resulting D36, and finally COMBINING them both with an additional D6. The resulting D1020 would then be SEVERED into a D1000.** *Throw 5 dice on table and arrange into a single one, a group of 2, then animate binary digits over them*
 
 **This second strategy would have a higher risk of rerolling (0.22 compared to 0.02) but would only need four D6es compared to the ten needed for the first, one could argue this gives you 2.5 tries to get it using the same "cost" which takes the probability of failure down from 0.23 to 0.025 making it very comparable to the first strategy.** *Take out graph paper graphing 1-(x/1024) compared to (1-(5/6*34/36*(x/1020)))^2.5 [see D1000-probs.svg]*
+
+**Now then, let's find a way to simulate all the dice needed - D4, D6, D8, D10, D20 and D100.** *Take out a D4, D6, D8, D10, D20, and another D100 from pocket*
+
+**We'll simulate the D4 by reducing two D6es to D2s and combine them.**
+
+**The D6 is trivial as we have a D6*^
+
+**In order to simulate a D8 we'll throw three D6es, reduce each to a D2 and then combine them all**
+
+**For a D10 we will need severing as not all prime factors of 10 are prime factors of 6. To begin, we'll sever a D6 into a D5 and then combine it with a D6 reduced to a D2**
+
+**Repeat these steps again and combine to simulate a D100**
+
+
