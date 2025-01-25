@@ -58,8 +58,8 @@ The explanation and animations should be intercut with flashbacks of nodding and
 |6 	|? 	|? 	|? 	|? 	|g=h 	|?  |
 |... 	|? 	|? 	|? 	|? 	|? 	|...|
 
-**If, instead, the size of the die we want to simulate is divisible by the size of the given die, we can simply do this by either dividing the possible outcomes of the given die into 'g' sections. We'll call this REDUCING the order of the die from h to g which we'll denote as h>g**
-**For example, if we want to simulate a D3 using a D6 we can say that a 1 or 2 becomes a 1, a 3 or 4 becomes a 2 and a 5 or 6 becomes a 3. In other words, we divide g with h and round up. The other way of doing it (there are probably more but whatever) is to take whatever value we get modulo g (but keep g at g instead of setting it to 0). In this case 1 through 3 map to themselves, where as 4,5, and 6 map to 1, 2, 3 respecively**
+**If, instead, the size of the die we want to simulate is divisible by the size of the given die, we can simply do this by either dividing the possible outcomes of the given die into 'g' sections.**
+**For example, if we want to simulate a D3 using a D6 we can say that a 1 or 2 becomes a 1, a 3 or 4 becomes a 2 and a 5 or 6 becomes a 3. In other words, we divide g with h and round up. The other way of doing it (there are probably more but whatever) is to take whatever value we get modulo g (but keep g at g instead of setting it to 0). In this case 1 through 3 map to themselves, where as 4,5, and 6 map to 1, 2, 3 respecively. We'll call this REDUCING the order of the die from h to g which we'll denote as h>g**
 |h,g 	|2 	|3 	|4 	|5 	|6 	|...|
 |--- 	|--- 	|--- 	|--- 	|--- 	|--- 	|---|
 |2 	|g=h 	|? 	|? 	|? 	|? 	|?|
@@ -69,7 +69,7 @@ The explanation and animations should be intercut with flashbacks of nodding and
 |6 	|g=h mod 2 	|g=h mod 3 	|? 	|? 	|g=h 	|?|
 |... 	|? 	|? 	|? 	|? 	|? 	|...|
 
-**But how do we simulate a die of higher order than the one we have? Naively, one could just add the values of the given dice. Two D4 dice make a D8, five D4s make a D20, etc. Unfortunately, this does not work as the resulting probabilities will not be uniform. With six D6es the probability of getting a sum of 21 is far greater than the proability to get 1.** *show bar graph of proabilities of different values for throwing 6D6* 
+**But how do we simulate a die of higher order than the one we have? Naively, one could just add the values of the given dice. Two D4 dice make a D8, five D4s make a D20, etc. Unfortunately, this does not work as the resulting probabilities will not be uniform. With three D6es the probability of getting a sum of 10 is far greater than the proability to get 3.** *show bar graph of proabilities of different values for throwing 6D6* 
 **However, we can simulate a die whose order is the square of a die we have by throwing the die twice, squaring the fist throw, and adding the two values.**
 
 |h1,h2 	|1 	|2 	|3 	|4 	|5 	|6|
