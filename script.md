@@ -69,7 +69,7 @@ The explanation and animations should be intercut with flashbacks of nodding and
 |6 	|g=h mod 2 	|g=h mod 3 	|? 	|? 	|g=h 	|?|
 |... 	|? 	|? 	|? 	|? 	|? 	|...|
 
-**But how do we simulate a die of higher order than the one we have? Naively, one could just add the values of the given dice. Two D4 dice make a D8, five D4s make a D20, etc. Unfortunately, this does not work as the resulting probabilities will not be uniform. With three D6es the probability of getting a sum of 10 is far greater than the proability to get 3.** *show bar graph of proabilities of different values for throwing 6D6* 
+**But how do we simulate a die of higher order than the one we have? Naively, one could just add the values of the given dice. Two D4 dice make a D8, five D4s make a D20, etc. Unfortunately, this does not work as the resulting probabilities will not be uniform. With three D6es the probability of getting a sum of 10 is far greater than the proability to get 4.** *show bar graph of proabilities of different values for throwing 6D6* 
 **However, we can simulate a die whose order is the square of a die we have by throwing the die twice, squaring the fist throw, and adding the two values.**
 
 |h1,h2 	|1 	|2 	|3 	|4 	|5 	|6|
