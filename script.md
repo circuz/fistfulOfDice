@@ -34,11 +34,11 @@ The explanation and animations should be intercut with flashbacks of nodding and
 
 ### August Wiklund
 
-**The problem here is quite simple. We have some die or dice, and want to simulate a dice throw of another kind of dice.** Back to 'now time' with animations (D6es -> D20 with question mark)
+**The problem here is quite simple. We have some die or dice, and want to simulate a dice throw of another kind of die.** Back to 'now time' with animations (D6es -> D20 with question mark)
 
 **We'll call the size of the die we have 'h', for have. And the size of the die we want to simulate we'll call 'g', for goal.** Create table with h=1,2,3,4..., and g=1,2,3,4,... [Flashback friends taking notes in pub]
 
-|h,g 	|2 	|3 	|4 	|5 	|6 	|...|
+|h, g 	|2 	|3 	|4 	|5 	|6 	|...|
 |--- 	|--- 	|--- 	|--- 	|--- 	|--- 	|---|
 |2 	|? 	|? 	|? 	|? 	|? 	|?  |
 |3 	|? 	|? 	|? 	|? 	|? 	|?  |
@@ -162,9 +162,9 @@ D24 = 4 * 6 = 2 * 2 * 2 * 3 = 2^3 * 3^1
 
 **Now then, let's find a way to simulate all the dice needed - D4, D6, D8, D10, D20 and D100.** *Take out a D4, D6, D8, D10, D20, and another D100 from pocket*
 
-**We'll simulate the D4 by reducing two D6es to D2s and combine them.**
+**We'll simulate the D4 by reducing two D6es to D2s and combining them.**
 
-**The D6 is trivial as we have a D6*^
+**The D6 is trivial as we have a D6**
 
 **In order to simulate a D8 we'll throw three D6es, reduce each to a D2 and then combine them all**
 
@@ -172,7 +172,7 @@ D24 = 4 * 6 = 2 * 2 * 2 * 3 = 2^3 * 3^1
 
 **Repeat these steps again and combine to simulate a D100**
 
--- Do dice sets include a D12?
+**The D12 is simply a D6 reduced to a D2 combined with a D6.**
 
 **Lastly: to simulate a D20 one takes three D6es, severs one into a D5 and reduces the other two to D2s. When combining the three of them a perfect D20 is simulated!** *visibly excited*
 
